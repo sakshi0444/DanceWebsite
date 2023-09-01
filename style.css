@@ -1,0 +1,254 @@
+*{
+margin:0px;
+box-sizing: border-box;
+padding:0px;
+}
+ul{
+display: flex;
+margin:10px 4px;
+justify-content: center;
+align-content: center;
+}
+#logo{
+display: flex;
+justify-items: flex-start;
+filter: brightness(1) invert(1);
+height: 61px;
+margin: 0 32px;
+margin-right: 600px;
+}
+li{
+display: flex;
+margin:10px 23px;
+font-size: 1.2rem;
+text-decoration: none;
+}
+a {
+text-decoration: none;
+color: white;
+font-size: 1.3rem;
+font-family: cursive;
+}
+a:hover{
+color:purple;
+}
+nav{
+display:flex;
+background-color:rgb(0, 0, 0);
+color: white;
+
+position: absolute;
+top:0px;
+left:-15px;
+right:0px;
+}
+#introsection{
+width:84%;
+height: 480px;
+color:black;
+
+text-align: center;
+}
+#introsection::before{
+content:"";
+position: absolute;
+background: url(https://th.bing.com/th/id/R.972d0afa33a8aaaa60d84b962bf2e18b?rik=dtxdjQAyf1%2f1Gw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fQcfABww.jpg&ehk=FCvXE%2fVzwL0WL98buAnHUNZP6oL%2bhm6168Yc1zeXHYo%3d&risl=&pid=ImgRaw&r=0) no-repeat center center/cover  ;
+height: 84%;
+width: 1465px;
+z-index:-1;
+opacity:0.7;
+top:0px;
+left: 0px;
+}
+#large{
+margin-top:250px;
+font-size: 3.3rem;
+font-family:cursive;
+font-weight: bold;
+color: aliceblue;
+}
+
+#sponsorsection{
+height:680px;
+background-color: #242323;
+width: 1465px;
+color: aliceblue;
+}
+#spI1{
+display: flex;
+height: 326px;
+width: 344px;
+justify-items: center;
+align-items: center;
+top: -586px;
+position: relative;
+margin: 0px 995px;
+}
+#spI{
+height: 600px;
+width: 774px;
+display: block;
+}
+#name{
+font-weight: bold;
+font-size: 2.5rem;
+text-align: center;
+position: relative;
+top: -584px;
+left: 386px;
+}
+#desc{
+font-size: 1.7rem;
+text-align: center;
+display: block;
+position: relative;
+top: -576px;
+margin: 0px 582px;
+left: 397px;
+}
+#footer{
+background-color: black;
+height: 100px;
+width: 1465px;
+}
+
+#small{
+font-size:3.0rem ;
+font-family:cursive;
+
+}
+#sponsors{
+font-size: 4.0rem;
+font-weight: bold;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer div{
+text-align: center;
+align-items: center;
+justify-content: center;
+background: black;
+color: white;
+width: 1450px;
+margin:0px 0px;
+}
+#missionsection{
+height: 530px;; 
+width: 1465px;
+margin: auto;
+display: block;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.card{
+border: 2px solid black;
+border-radius: 10px;
+width: 28%;
+margin: 27px 37px;
+height: 382px;
+display: inline-block;
+overflow: hidden;
+}
+.card h2{
+font-size: 25px;
+margin-top: 10px;
+}
+#mission{
+font-size: 4.0rem;
+font-weight: bold;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 230px;
+}
+.card:hover{
+background: url(https://cms.qz.com/wp-content/uploads/2019/12/The-power-of-dance-e1575906582595.jpg?quality=75&strip=all&w=1400) no-repeat center center/cover ;
+z-index: -1;
+color: aliceblue;
+overflow: hidden;
+}
+#card{
+height: 262px;
+width: 382px;
+margin-top: 8px;
+}
+#card1{
+font-family: cursive;
+font-size: 20px;
+}
+.card:hover #card{
+opacity: 0;
+}
+#card2{
+font-family: cursive;
+font-size: 20px;
+}
+#card3{
+font-family: cursive;
+font-size: 20px;
+}
+#contact{
+height:350px;
+position: relative;
+top: 60px;
+background: url(https://media.istockphoto.com/photos/contact-us-email-phone-message-contact-communication-web-landing-page-picture-id884374384?k=6&m=884374384&s=612x612&w=0&h=T_dnqUOtqb7UVBJ0n8dU1enYKFuWmvkcsLS0JFgMR-w=)no-repeat center center/cover;
+height: 640px;
+opacity: 0.9;
+}
+.prime-center{
+text-align: center;
+margin: 10px 12px;
+font-size: 2.6rem;
+font-family: cursive;
+color: aliceblue;
+}
+form-group{
+border: 2px solid black;
+}
+#contact-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+width:auto;
+justify-content: center;
+width: 50%;
+}
+.form-group {
+font-size: 1.6rem;
+font-family: cursive;
+left: 320px;
+position: relative;
+}
+button {
+border: 2px solid rgb(255, 248, 248);
+padding: 10px;
+font-size: 1.2rem;
+font-family: cursive;
+border-radius: 10px;
+background-color: black;
+color: aliceblue;
+align-items: center;
+left:320px;
+cursor: pointer;
+position: relative;
+}
+button:hover{
+background-color:purple;
+color: black;
+}
+.name{
+display: block;
+width: 50%;
+margin: 15px;
+padding:15px;
+font-size: 16px;
+border: 2px solid black;
+border-radius: 5px;
+box-shadow: #646060;
+}
+.center {
+    margin: 185px 0px;
+}
